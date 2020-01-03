@@ -16,7 +16,7 @@ module ::WatchCategory
     WatchCategory.change_notification_pref_for_group(groups_cats, :watching)
 
     groups_cats = {
-      'Active' => [['releases','news']]
+      'Active' => ['releases','news']
     }
     WatchCategory.change_notification_pref_for_group(groups_cats, :watching_first_post)
   end
